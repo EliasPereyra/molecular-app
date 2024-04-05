@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "moleculer-runner --repl --hot --config moleculer.dev.config.js services",
+    "start": "moleculer-runner --instances=max services"
   },
   "type": "module",
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": {
+    "name": "Elias Pereyra"
+  },
+  "repository": {
+    "url": "https://github.com/EliasPereyra/molecular-app"
+  },
   "license": "ISC",
   "dependencies": {
     "moleculer": "^0.14.33",
